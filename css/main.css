@@ -41,7 +41,7 @@ h2 {
 
 .profile-container h1 {
   font-size: 1.5rem;
-  margin-top: 5px;
+  margin: 20px 0;
 }
 
 .profile-container h1 span {
@@ -113,7 +113,7 @@ h2 {
 /*
 TABLET MEDIA QUERIES
 */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 554px) {
   .row {
     display: flex;
   }
@@ -128,7 +128,7 @@ TABLET MEDIA QUERIES
 /*
 LAPTOP MEDIA QUERIES
 */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .resume {
     padding: 5%;
   }
@@ -151,5 +151,8 @@ LAPTOP MEDIA QUERIES
   }
   .resume-item-content h3 {
     margin-top: 0;
+  }
+  .headshot {
+    max-width: 33%;
   }
 }
